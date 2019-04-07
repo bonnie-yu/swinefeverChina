@@ -17,6 +17,11 @@
         .province {
             font-size: 20px;
         }
+        
+        p {
+            margin-left: 15%;
+            font-size: 17px;
+        }
     </style>
 </head>
 
@@ -104,6 +109,10 @@
                 .text("2018年8月至12月全国各省份非洲猪瘟疫情统计")
                 .attr("x", width / 2 - 140)
                 .attr("y", height - 180)
+            svg.append("text")
+                .text("数据来源：农业部")
+                .attr("x", width / 2 - 140)
+                .attr("y", height - 160)
 
             var marbot = 290;
 
