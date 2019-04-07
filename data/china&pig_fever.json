@@ -2,7 +2,7 @@
     "type": "FeatureCollection",
     "features": [{
             "type": "Feature",
-            "properties": { "id": "65", "size": "550", "name": "新疆维吾尔自治区", "cp": [84.9023, 42.148], "childNum": 18, "sick": 0, "dead": 0, "killed": 0 },
+            "properties": { "id": "65", "size": "550", "name": "新疆维吾尔自治区", "cp": [84.9023, 42.148], "childNum": 18, "sick": 15, "dead": 15, "killed": 200 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -704,7 +704,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "51", "size": "900", "name": "四川省", "cp": [101.9199, 30.1904], "childNum": 21, "sick": 197, "dead": 136, "killed": 642 },
+            "properties": { "id": "51", "size": "900", "name": "四川省", "cp": [101.9199, 30.1904], "childNum": 21, "sick": 197, "dead": 145, "killed": 642 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -975,7 +975,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "62", "size": "690", "name": "甘肃省", "cp": [99.7129, 38.166], "childNum": 14, "sick": 0, "dead": 0, "killed": 0 },
+            "properties": { "id": "62", "size": "690", "name": "甘肃省", "cp": [99.7129, 38.166], "childNum": 14, "sick": 187, "dead": 46, "killed": 299 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1298,7 +1298,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "45", "size": "1450", "name": "广西壮族自治区", "cp": [107.7813, 23.6426], "childNum": 14, "sick": 1629, "dead": 924, "killed": 23555 },
+            "properties": { "id": "45", "size": "1450", "name": "广西壮族自治区", "cp": [107.7813, 23.6426], "childNum": 14, "sick": 1653, "dead": 944, "killed": 26727 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -1894,7 +1894,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "42", "size": "1500", "name": "湖北省", "cp": [112.2363, 31.1572], "childNum": 17, "sick": 62, "dead": 28, "killed": 1667 },
+            "properties": { "id": "42", "size": "1500", "name": "湖北省", "cp": [112.2363, 31.1572], "childNum": 17, "sick": 153, "dead": 106, "killed": 1892 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2626,7 +2626,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "32", "size": "1950", "name": "江苏省", "cp": [118.8586, 32.915], "childNum": 13, "sick": 627, "dead": 97, "killed": 14674 },
+            "properties": { "id": "32", "size": "1950", "name": "江苏省", "cp": [118.8586, 32.915], "childNum": 13, "sick": 3979, "dead": 1466, "killed": 83643 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2693,7 +2693,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "id": "50", "size": "2380", "name": "重庆市", "cp": [107.7539, 30.1904], "childNum": 40, "sick": 11, "dead": 6, "killed": 332 },
+            "properties": { "id": "50", "size": "2380", "name": "重庆市", "cp": [107.7539, 30.1904], "childNum": 40, "sick": 20, "dead": 12, "killed": 423 },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [

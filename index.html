@@ -49,7 +49,7 @@
         console.log(100 + 200)
 
         var color = d3.scale.linear()
-            .domain([0, 300, 1000, 2000, 15000, 20000, 80000])
+            .domain([0, 300, 1000, 2000, 15000, 20000, 85000])
             .range(["#d8d8e5", "#8b8bb2", "#7878a5", "#656598", "#ff6666", "red", "#7f0000"]);
 
         var path = d3.geo.path()
@@ -125,7 +125,7 @@
                 .attr("stroke", "#000")
 
             svg.append("text")
-                .text("< 80000")
+                .text("< 85000")
                 .attr("x", 175)
                 .attr("y", height - marbot - 3)
                 .attr("font-size", "14px")
@@ -271,7 +271,7 @@
                     //     .style("top", (d3.event.pageY - 28) + "px");
 
 
-                    tooltip.html("<strong><span class='province'>" + d.province + "省" + d.city + "市" + "</span></strong><br>发病数（头）：" + d.sick + "<br>死亡数（头）：" + d.dead + "<br>处理数（头）：" + d.killed)
+                    tooltip.html("<strong><span class='province'>" + d.province + d.city + "市" + "</span></strong><br>发病数（头）：" + d.sick + "<br>死亡数（头）：" + d.dead + "<br>处理数（头）：" + d.killed)
                         .style("left", width / 2 - 80 + "px")
                         .style("top", 85 + "px");
 

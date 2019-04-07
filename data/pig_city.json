@@ -960,6 +960,39 @@
     },
     {
         "number": 97,
+        "time": "2019/01/12",
+        "province": "江苏",
+        "city": "宿迁",
+        "location": [118.2752, 33.9632],
+        "sick": 2452,
+        "dead": "1369",
+        "killed": 68969
+    },
+    {
+        "number": 98,
+        "time": "2019/01/13",
+        "province": "甘肃",
+        "city": "庆阳",
+        "location": [107.6436, 35.7091],
+        "sick": 44,
+        "dead": "9",
+        "killed": 109
+    },
+    {
+        "number": 99,
+        "time": "2019/01/18",
+        "province": "甘肃",
+        "city": "兰州",
+        "location": [103.8343, 36.0611],
+        "sick": 143,
+        "dead": "37",
+        "killed": 190
+    }
+
+
+    ,
+    {
+        "number": 100,
         "time": "2019/01/20",
         "province": "宁夏",
         "city": "银川",
@@ -969,7 +1002,7 @@
         "killed": 57
     },
     {
-        "number": 98,
+        "number": 101,
         "time": "2019/02/08",
         "province": "湖南",
         "city": "永州",
@@ -979,7 +1012,7 @@
         "killed": 4600
     },
     {
-        "number": 99,
+        "number": 102,
         "time": "2019/02/21",
         "province": "山东",
         "city": "济南",
@@ -989,7 +1022,7 @@
         "killed": 4504
     },
     {
-        "number": 100,
+        "number": 103,
         "time": "2019/02/21",
         "province": "广西",
         "city": "北海",
@@ -999,7 +1032,7 @@
         "killed": 23555
     },
     {
-        "number": 101,
+        "number": 104,
         "time": "2019/02/22",
         "province": "云南",
         "city": "泸水",
@@ -1009,7 +1042,7 @@
         "killed": 300
     },
     {
-        "number": 102,
+        "number": 105,
         "time": "2019/02/24",
         "province": "河北",
         "city": "保定",
@@ -1019,7 +1052,7 @@
         "killed": 5600
     },
     {
-        "number": 102,
+        "number": 1066,
         "time": "2019/02/28",
         "province": "陕西",
         "city": "榆林",
@@ -1027,5 +1060,65 @@
         "sick": 150,
         "dead": "62",
         "killed": 11334
+    },
+    {
+        "number": 107,
+        "time": "2019/03/11",
+        "province": "广西",
+        "city": "贵港",
+        "location": [109.5989, 23.1115],
+        "sick": 24,
+        "dead": "20",
+        "killed": 3172
+    },
+    {
+        "number": 108,
+        "time": "2019/03/13",
+        "province": "四川",
+        "city": "广安",
+        "location": [106.6331, 30.4562],
+        "sick": null,
+        "dead": "9",
+        "killed": null
+    },
+    {
+        "number": 109,
+        "time": "2019/03/22",
+        "province": "重庆",
+        "city": "石柱",
+        "location": [108.1141, 29.9993],
+        "sick": 9,
+        "dead": "6",
+        "killed": 91
+    },
+    {
+        "number": 110,
+        "time": "2019/04/01",
+        "province": "湖北",
+        "city": "利川",
+        "location": [108.9364, 30.2910],
+        "sick": 8,
+        "dead": "5",
+        "killed": 142
+    },
+    {
+        "number": 111,
+        "time": "2019/04/01",
+        "province": "湖北",
+        "city": "利川",
+        "location": [108.9364, 30.2910],
+        "sick": 83,
+        "dead": "73",
+        "killed": 83
+    },
+    {
+        "number": 112,
+        "time": "2019/04/04",
+        "province": "新疆",
+        "city": "乌鲁木齐",
+        "location": [87.6168, 43.8256],
+        "sick": 15,
+        "dead": "15",
+        "killed": 200
     }
 ]
