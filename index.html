@@ -94,8 +94,6 @@
                         .style("left", width / 2 - 80 + "px")
                         .style("top", 85 + "px");
 
-
-
                 })
                 .on("mouseout", function(d, i) {
                     d3.select(this).attr("fill", function(d) {
@@ -112,8 +110,20 @@
                 .attr("y", height - 180)
             svg.append("text")
                 .text("数据来源：农业部")
+                .attr({
+                    "xlink:href": "http://www.moa.gov.cn/ztzl/fzzwfk/yqxx/"
+                })
                 .attr("x", width / 2 - 140)
                 .attr("y", height - 160)
+                .on("mouseover", function() {
+                    d3.select(this).attr("fill", "gray")
+                })
+                .on("mouseout", function() {
+                    d3.select(this).attr("fill", "black")
+                })
+                .on("click", function() {
+                    window.open("http://www.moa.gov.cn/ztzl/fzzwfk/yqxx/");
+                })
 
             var marbot = 290;
 
