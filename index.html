@@ -1,0 +1,276 @@
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <style>
+        .tooltip {
+            position: absolute;
+            z-index: 9999;
+            padding: 0;
+            color: #000;
+            font-size: 14px;
+            text-align: left;
+            border-radius: 2px;
+            pointer-events: none;
+        }
+        
+        .province {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>swine fever map</p>
+    </div>
+    <div id="china-map"></div>
+    <script>
+        var width = 1024;
+        var height = 768;
+
+        var svg = d3.select("#china-map").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(0,0)");
+
+        var projection = d3.geo.mercator()
+            .center([107, 31])
+            .scale(700)
+            .translate([width / 2, height / 2]);
+
+        console.log(100 + 200)
+
+        var color = d3.scale.linear()
+            .domain([0, 300, 1000, 2000, 15000, 20000, 80000])
+            .range(["#d8d8e5", "#8b8bb2", "#7878a5", "#656598", "#ff6666", "red", "#7f0000"]);
+
+        var path = d3.geo.path()
+            .projection(projection);
+
+        //var color = d3.scale.category10();
+
+        d3.json("data/china&pig_fever.json", function(error, root) {
+            if (error) return console.error(error);
+
+            var tooltip = d3.select("body")
+                .append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            svg.selectAll("path")
+                .data(root.features)
+                .enter()
+                .append("path")
+                .attr("stroke", "#ffffff")
+                .attr("stroke-width", 1)
+                .attr('fill', function(d) {
+                    return color(d.properties.killed);
+                })
+                // .attr("fill", function(d, i) {
+                //     return "#3f3f7f";
+                // })
+                .attr("d", path)
+                .on("mouseover", function(d, i) {
+                    // d3.select(this).attr("fill", "#E9A825");
+                    d3.select(this).attr("fill", "#ffd27f");
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+
+                    // tooltip.html(d.properties.name + "\n" + d.properties.killed)
+                    //     .style("left", (d3.event.pageX - 20) + "px")
+                    //     .style("top", (d3.event.pageY - 28) + "px");
+
+                    tooltip.html("<strong><span class='province'>" + d.properties.name + "</span></strong><br>发病数（头）：" + d.properties.sick + "<br>死亡数（头）：" + d.properties.dead + "<br>处理数（头）：" + d.properties.killed)
+                        .style("left", width / 2 - 80 + "px")
+                        .style("top", 85 + "px");
+
+
+
+                })
+                .on("mouseout", function(d, i) {
+                    d3.select(this).attr("fill", function(d) {
+                        return color(d.properties.killed);
+                    });
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", 0);
+                });
+
+            svg.append("text")
+                .text("2018年8月至12月全国各省份非洲猪瘟疫情统计")
+                .attr("x", width / 2 - 140)
+                .attr("y", height - 180)
+
+            var marbot = 290;
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot - 13)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#7f0000")
+                .attr("stroke", "#000")
+
+            svg.append("text")
+                .text("< 80000")
+                .attr("x", 175)
+                .attr("y", height - marbot - 3)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "red")
+                .attr("stroke", "#000")
+
+            svg.append("text")
+                .text("< 20000")
+                .attr("x", 175)
+                .attr("y", height - marbot + 10)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot + 13)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#ff6666")
+                .attr("stroke", "#000")
+            svg.append("text")
+                .text("< 15000")
+                .attr("x", 175)
+                .attr("y", height - marbot + 23)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot + 13 * 2)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#656598")
+                .attr("stroke", "#000")
+            svg.append("text")
+                .text("< 2000")
+                .attr("x", 175)
+                .attr("y", height - marbot + 36)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot + 13 * 3)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#7878a5")
+                .attr("stroke", "#000")
+            svg.append("text")
+                .text("< 1000")
+                .attr("x", 175)
+                .attr("y", height - marbot + 49)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot + 13 * 4)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#8b8bb2")
+                .attr("stroke", "#000")
+            svg.append("text")
+                .text("< 300")
+                .attr("x", 175)
+                .attr("y", height - marbot + 62)
+                .attr("font-size", "14px")
+
+            svg.append("rect")
+                .attr("x", 160)
+                .attr("y", height - marbot + 13 * 5)
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("fill", "#d8d8e5")
+                .attr("stroke", "#000")
+            svg.append("text")
+                .text("> 0")
+                .attr("x", 175)
+                .attr("y", height - marbot + 75)
+                .attr("font-size", "14px")
+
+
+            //添加文字
+            // svg.selectAll("text")
+            //   .data(root.features)
+            //   .enter()
+            //   .append("text")
+            //   .text(function(d){return d.properties.name})
+            //   .attr({
+            //     transform: function(d){return "translate("+path.centroid(d)+")";},
+            //     "text-anchor": "middle",
+            //     "font-size": "10px"
+            //   });
+        });
+
+        var size = d3.scale.linear()
+            .domain([0, 100, 500, 1000, 5000, 10000])
+            .range([3, 4, 6, 7, 8, 10])
+
+        d3.json("data/pig_city.json", function(error, data) {
+            if (error) return console.error(error);
+
+            var tooltip = d3.select("body")
+                .append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            svg.selectAll("circle")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("class", "circles")
+                .attr("cx", function(d) {
+                    return projection(d.location)[0]
+                })
+                .attr("cy", function(d) {
+                    return projection(d.location)[1]
+                })
+                .attr("r", function(d) {
+                    return size(d.killed)
+                })
+                .attr("fill", "orange")
+                .style("opacity", 0.7)
+
+            .on("mouseover", function(d, i) {
+                    // d3.select(this).attr("fill", "#E9A825");
+                    d3.select(this).attr("fill", "#00daff");
+                    tooltip.transition()
+                        .duration(100)
+                        .attr("fill", "#00daff")
+                        .style("opacity", .9);
+
+                    // tooltip.html(d.city + "\n" + d.killed)
+                    //     .style("left", (d3.event.pageX - 20) + "px")
+                    //     .style("top", (d3.event.pageY - 28) + "px");
+
+
+                    tooltip.html("<strong><span class='province'>" + d.province + "省" + d.city + "市" + "</span></strong><br>发病数（头）：" + d.sick + "<br>死亡数（头）：" + d.dead + "<br>处理数（头）：" + d.killed)
+                        .style("left", width / 2 - 80 + "px")
+                        .style("top", 85 + "px");
+
+                })
+                .on("mouseout", function(d, i) {
+                    d3.select(this).attr("fill", "orange");
+                    tooltip.transition()
+                        .duration(100)
+                        .style("opacity", 0);
+                });
+
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1031 @@
+[{
+        "number": 1,
+        "time": "2018/8/1",
+        "province": "辽宁",
+        "city": "沈阳",
+        "location": [123.535333, 42.059558],
+        "sick": 47,
+        "dead": "47",
+        "killed": 8116
+    },
+    {
+        "number": 2,
+        "time": "2018/8/14",
+        "province": "河南",
+        "city": "郑州",
+        "location": [113.74962, 34.72806],
+        "sick": 30,
+        "dead": "30",
+        "killed": 1362
+    },
+    {
+        "number": 3,
+        "time": "2018/8/15",
+        "province": "江苏",
+        "city": "连云港",
+        "location": [119.169191, 34.578764],
+        "sick": 615,
+        "dead": "88",
+        "killed": 14577
+    },
+    {
+        "number": 4,
+        "time": "2018/8/17",
+        "province": "浙江",
+        "city": "乐清",
+        "location": [120.993075, 28.118435],
+        "sick": 430,
+        "dead": "340",
+        "killed": 1332
+    },
+    {
+        "number": 5,
+        "time": "2018/8/29",
+        "province": "安徽",
+        "city": "芜湖",
+        "location": [118.342139, 30.921003],
+        "sick": 185,
+        "dead": "80",
+        "killed": 379
+    },
+    {
+        "number": 6,
+        "time": "2018/9/2",
+        "province": "安徽",
+        "city": "宣城",
+        "location": [118.660047, 31.036042],
+        "sick": null,
+        "dead": "40",
+        "killed": 285
+    },
+    {
+        "number": 7,
+        "time": "2018/9/2",
+        "province": "安徽",
+        "city": "宣城",
+        "location": [118.792405, 31.012943],
+        "sick": null,
+        "dead": "94",
+        "killed": 440
+    },
+    {
+        "number": 8,
+        "time": "2018/9/3",
+        "province": "安徽",
+        "city": "宣城",
+        "location": [118.674575, 30.875007],
+        "sick": 152,
+        "dead": "83",
+        "killed": 308
+    },
+    {
+        "number": 9,
+        "time": "2018/9/3",
+        "province": "江苏",
+        "city": "无锡",
+        "location": [119.831035, 31.343697],
+        "sick": 12,
+        "dead": "9",
+        "killed": 97
+    },
+    {
+        "number": 10,
+        "time": "2018/9/5",
+        "province": "黑龙江",
+        "city": "佳木斯",
+        "location": [130.309966, 46.815078],
+        "sick": 39,
+        "dead": "12",
+        "killed": 87
+    },
+    {
+        "number": 11,
+        "time": "2018/9/6",
+        "province": "安徽",
+        "city": "滁州",
+        "location": [117.540312, 32.880735],
+        "sick": 62,
+        "dead": "22",
+        "killed": 886
+    },
+    {
+        "number": 12,
+        "time": "2018/9/6",
+        "province": "黑龙江",
+        "city": "佳木斯",
+        "location": [130.372615, 46.813709],
+        "sick": 26,
+        "dead": "10",
+        "killed": 203
+    },
+    {
+        "number": 13,
+        "time": "2018/9/6",
+        "province": "安徽",
+        "city": "芜湖",
+        "location": [118.416177, 31.071564],
+        "sick": 13,
+        "dead": "4",
+        "killed": 30
+    },
+    {
+        "number": 14,
+        "time": "2018/9/6",
+        "province": "安徽",
+        "city": "宣城",
+        "location": [118.598473, 30.925459],
+        "sick": 15,
+        "dead": "15",
+        "killed": 52
+    },
+    {
+        "number": 15,
+        "time": "2018/9/10",
+        "province": "安徽",
+        "city": "铜陵",
+        "location": [117.797703, 30.958761],
+        "sick": 63,
+        "dead": "23",
+        "killed": 219
+    },
+    {
+        "number": 16,
+        "time": "2018/9/12",
+        "province": "内蒙古",
+        "city": "阿巴嘎旗",
+        "location": [114.956219, 44.028311],
+        "sick": 16,
+        "dead": "16",
+        "killed": null
+    },
+    {
+        "number": 17,
+        "time": "2018/9/12",
+        "province": "河南",
+        "city": "获嘉",
+        "location": [113.663989, 35.266045],
+        "sick": 148,
+        "dead": "64",
+        "killed": null
+    },
+    {
+        "number": 18,
+        "time": "2018/9/15",
+        "province": "内蒙古",
+        "city": "正蓝旗",
+        "location": [115.999179, 42.246478],
+        "sick": 14,
+        "dead": "8",
+        "killed": 159
+    },
+    {
+        "number": 19,
+        "time": "2018/9/17",
+        "province": "吉林",
+        "city": "南崴子镇",
+        "location": [124.750816, 43.467731],
+        "sick": 56,
+        "dead": "56",
+        "killed": 484
+    },
+    {
+        "number": 20,
+        "time": "2018/9/17",
+        "province": "内蒙古",
+        "city": "科尔沁右翼中旗",
+        "location": [121.479525, 45.068713],
+        "sick": 23,
+        "dead": "22",
+        "killed": 138
+    },
+    {
+        "number": 21,
+        "time": "2018/9/22",
+        "province": "内蒙古",
+        "city": "呼和浩特",
+        "location": [111.672149, 40.837288],
+        "sick": 4,
+        "dead": "2",
+        "killed": 388
+    },
+    {
+        "number": 22,
+        "time": "2018/9/28",
+        "province": "吉林",
+        "city": "长岭",
+        "location": [123.974371, 44.282258],
+        "sick": 8,
+        "dead": "3",
+        "killed": 44
+    },
+    {
+        "number": 23,
+        "time": "2018/9/28",
+        "province": "辽宁",
+        "city": "营口",
+        "location": [122.387173, 40.686919],
+        "sick": null,
+        "dead": "102",
+        "killed": 378
+    },
+    {
+        "number": 24,
+        "time": "2018/10/7",
+        "province": "辽宁",
+        "city": "营口",
+        "location": [122.515954, 40.650583],
+        "sick": 334,
+        "dead": "93",
+        "killed": 3358
+    },
+    {
+        "number": 25,
+        "time": "2018/10/8",
+        "province": "辽宁",
+        "city": "鞍山",
+        "location": [122.438529, 41.45342],
+        "sick": 160,
+        "dead": "160",
+        "killed": 460
+    },
+    {
+        "number": 26,
+        "time": "2018/10/11",
+        "province": "辽宁",
+        "city": "大连",
+        "location": [121.968311, 39.408125],
+        "sick": 20,
+        "dead": "11",
+        "killed": 1353
+    },
+    {
+        "number": 27,
+        "time": "2018/10/12",
+        "province": "辽宁",
+        "city": "鞍山",
+        "location": [122.365286, 41.333762],
+        "sick": 88,
+        "dead": "72",
+        "killed": 120
+    },
+    {
+        "number": 28,
+        "time": "2018/10/12",
+        "province": "天津",
+        "city": "蓟州",
+        "location": [117.404228, 40.032727],
+        "sick": 292,
+        "dead": "189",
+        "killed": 639
+    },
+    {
+        "number": 29,
+        "time": "2018/10/14",
+        "province": "辽宁",
+        "city": "鞍山",
+        "location": [122.308283, 41.467788],
+        "sick": 14,
+        "dead": "14",
+        "killed": 180
+    },
+    {
+        "number": 30,
+        "time": "2018/10/14",
+        "province": "辽宁",
+        "city": "锦州",
+        "location": [121.784886, 41.59529],
+        "sick": 221,
+        "dead": "221",
+        "killed": 19938
+    },
+    {
+        "number": 31,
+        "time": "2018/10/14",
+        "province": "辽宁",
+        "city": "盘锦",
+        "location": [122.045861, 40.956721],
+        "sick": 109,
+        "dead": "109",
+        "killed": 1571
+    },
+    {
+        "number": 32,
+        "time": "2018/10/14",
+        "province": "辽宁",
+        "city": "盘锦",
+        "location": [122.088952, 40.959196],
+        "sick": 129,
+        "dead": "129",
+        "killed": 270
+    },
+    {
+        "number": 33,
+        "time": "2018/10/15",
+        "province": "辽宁",
+        "city": "铁岭",
+        "location": [123.863739, 42.559353],
+        "sick": 50,
+        "dead": "14",
+        "killed": 6640
+    },
+    {
+        "number": 34,
+        "time": "2018/10/15",
+        "province": "辽宁",
+        "city": "盘锦",
+        "location": [121.988245, 41.047726],
+        "sick": 1030,
+        "dead": "1030",
+        "killed": 4323
+    },
+    {
+        "number": 35,
+        "time": "2018/10/15",
+        "province": "辽宁",
+        "city": "盘锦",
+        "location": [22.085297, 41.007711],
+        "sick": 31,
+        "dead": "20",
+        "killed": 3223
+    },
+    {
+        "number": 36,
+        "time": "2018/10/16",
+        "province": "辽宁",
+        "city": "盘锦",
+        "location": [122.250895, 40.932002],
+        "sick": 43,
+        "dead": "43",
+        "killed": 161
+    },
+    {
+        "number": 37,
+        "time": "2018/10/17",
+        "province": "山西",
+        "city": "大同",
+        "location": [112.70918, 40.019843],
+        "sick": 7,
+        "dead": "4",
+        "killed": 15
+    },
+    {
+        "number": 38,
+        "time": "2018/10/20",
+        "province": "云南",
+        "city": "昭通",
+        "location": [104.576828, 27.505232],
+        "sick": 298,
+        "dead": "298",
+        "killed": 804
+    },
+    {
+        "number": 39,
+        "time": "2018/10/20",
+        "province": "云南",
+        "city": "昭通",
+        "location": [105.195815, 27.567067],
+        "sick": 247,
+        "dead": "247",
+        "killed": 353
+    },
+    {
+        "number": 40,
+        "time": "2018/10/21",
+        "province": "浙江",
+        "city": "台州",
+        "location": [121.402271, 29.110859],
+        "sick": 56,
+        "dead": "56",
+        "killed": 2280
+    },
+    {
+        "number": 41,
+        "time": "2018/10/22",
+        "province": "湖南",
+        "city": "益阳",
+        "location": [112.163405, 28.523363],
+        "sick": 44,
+        "dead": "17",
+        "killed": 546
+    },
+    {
+        "number": 42,
+        "time": "2018/10/22",
+        "province": "湖南",
+        "city": "常德",
+        "location": [111.495694, 28.90919],
+        "sick": 208,
+        "dead": "31",
+        "killed": 268
+    },
+    {
+        "number": 43,
+        "time": "2018/10/25",
+        "province": "贵州",
+        "city": "毕节",
+        "location": [104.732945, 27.129052],
+        "sick": 8,
+        "dead": "8",
+        "killed": 10
+    },
+    {
+        "number": 44,
+        "time": "2018/10/26",
+        "province": "贵州",
+        "city": "毕节",
+        "location": [105.30928, 27.304352],
+        "sick": 25,
+        "dead": "25",
+        "killed": 49
+    },
+    {
+        "number": 45,
+        "time": "2018/10/27",
+        "province": "湖南",
+        "city": "常德",
+        "location": [111.495407, 28.909958],
+        "sick": 106,
+        "dead": "99",
+        "killed": 7684
+    },
+    {
+        "number": 46,
+        "time": "2018/10/30",
+        "province": "山西",
+        "city": "曲阳",
+        "location": [112.678548, 38.065076],
+        "sick": 75,
+        "dead": "47",
+        "killed": 210
+    },
+    {
+        "number": 47,
+        "time": "2018/10/30",
+        "province": "湖南",
+        "city": "沅陵",
+        "location": [110.399565, 28.459019],
+        "sick": 25,
+        "dead": "22",
+        "killed": 144
+    },
+    {
+        "number": 48,
+        "time": "2018/10/30",
+        "province": "云南",
+        "city": "普洱",
+        "location": [100.966018, 22.797828],
+        "sick": 5,
+        "dead": "1",
+        "killed": 36
+    },
+    {
+        "number": 49,
+        "time": "2018/11/3",
+        "province": "山西",
+        "city": "曲阳",
+        "location": [112.429161, 38.142219],
+        "sick": 25,
+        "dead": "7",
+        "killed": 47
+    },
+    {
+        "number": 50,
+        "time": "2018/11/4",
+        "province": "重庆",
+        "city": "丰都",
+        "location": [107.824977, 29.954048],
+        "sick": 3,
+        "dead": "3",
+        "killed": 309
+    },
+    {
+        "number": 51,
+        "time": "2018/11/5",
+        "province": "湖南",
+        "city": "湘西自治州",
+        "location": [109.6659, 28.706475],
+        "sick": 11,
+        "dead": "4",
+        "killed": 119
+    },
+    {
+        "number": 52,
+        "time": "2018/11/7",
+        "province": "湖北",
+        "city": "罗田",
+        "location": [115.394053, 30.774514],
+        "sick": 22,
+        "dead": "4",
+        "killed": 821
+    },
+    {
+        "number": 53,
+        "time": "2018/11/8",
+        "province": "湖南",
+        "city": "涟源",
+        "location": [111.663085, 27.696121],
+        "sick": 4,
+        "dead": "1",
+        "killed": 9
+    },
+    {
+        "number": 54,
+        "time": "2018/11/8",
+        "province": "江西",
+        "city": "万年",
+        "location": [117.062871, 28.701067],
+        "sick": 49,
+        "dead": "49",
+        "killed": 154
+    },
+    {
+        "number": 55,
+        "time": "2018/11/8",
+        "province": "吉林",
+        "city": "龙井",
+        "location": [129.424013, 42.771536],
+        "sick": 144,
+        "dead": "144",
+        "killed": 930
+    },
+    {
+        "number": 56,
+        "time": "2018/11/8",
+        "province": "福建",
+        "city": "莆田",
+        "location": [119.000103, 25.424605],
+        "sick": 85,
+        "dead": "85",
+        "killed": 4521
+    },
+    {
+        "number": 57,
+        "time": "2018/11/9",
+        "province": "安徽",
+        "city": "青阳",
+        "location": [117.854871, 30.643894],
+        "sick": 96,
+        "dead": "47",
+        "killed": 8339
+    },
+    {
+        "number": 58,
+        "time": "2018/11/12",
+        "province": "湖北",
+        "city": "武穴",
+        "location": [115.568827, 29.851193],
+        "sick": 7,
+        "dead": "6",
+        "killed": 147
+    },
+    {
+        "number": 59,
+        "time": "2018/11/15",
+        "province": "湖北",
+        "city": "浠水",
+        "location": [115.271569, 30.456714],
+        "sick": 24,
+        "dead": "13",
+        "killed": 636
+    },
+    {
+        "number": 60,
+        "time": "2018/11/15",
+        "province": "四川",
+        "city": "高县",
+        "location": [104.524988, 28.441748],
+        "sick": 16,
+        "dead": "10",
+        "killed": 40
+    },
+    {
+        "number": 61,
+        "time": "2018/11/16",
+        "province": "吉林",
+        "city": "白山",
+        "location": [126.427643, 41.940336],
+        "sick": null,
+        "dead": "1（野猪）",
+        "killed": null
+    },
+    {
+        "number": 62,
+        "time": "2018/11/16",
+        "province": "云南",
+        "city": "威信",
+        "location": [105.055868, 27.843211],
+        "sick": 1,
+        "dead": "1",
+        "killed": 1
+    },
+    {
+        "number": 63,
+        "time": "2018/11/17",
+        "province": "江西",
+        "city": "鄱阳",
+        "location": [116.71114, 29.01019],
+        "sick": 10,
+        "dead": "10",
+        "killed": 150
+    },
+    {
+        "number": 64,
+        "time": "2018/11/17",
+        "province": "云南",
+        "city": "昆明",
+        "location": [102.829194, 24.891084],
+        "sick": null,
+        "dead": "bu",
+        "killed": 348
+    },
+    {
+        "number": 65,
+        "time": "2018/11/17",
+        "province": "四川",
+        "city": "新津",
+        "location": [103.818587, 30.416612],
+        "sick": 27,
+        "dead": "13",
+        "killed": 110
+    },
+    {
+        "number": 66,
+        "time": "2018/11/17",
+        "province": "上海",
+        "city": "金山",
+        "location": [121.34963, 30.750087],
+        "sick": 50,
+        "dead": "11",
+        "killed": 314
+    },
+    {
+        "number": 67,
+        "time": "2018/11/19",
+        "province": "黑龙江",
+        "city": "哈尔滨",
+        "location": [126.660203, 45.797976],
+        "sick": 269,
+        "dead": "269",
+        "killed": 900
+    },
+    {
+        "number": 68,
+        "time": "2018/11/20",
+        "province": "湖南",
+        "city": "怀化",
+        "location": [110.0096, 27.574724],
+        "sick": 61,
+        "dead": "55",
+        "killed": 73
+    },
+    {
+        "number": 69,
+        "time": "2018/11/23",
+        "province": "北京",
+        "city": "房山",
+        "location": [116.095137, 39.802101],
+        "sick": null,
+        "dead": "49",
+        "killed": 1325
+    },
+    {
+        "number": 70,
+        "time": "2018/11/23",
+        "province": "北京",
+        "city": "房山",
+        "location": [116.031608, 39.616483],
+        "sick": null,
+        "dead": "37",
+        "killed": 429
+    },
+    {
+        "number": 71,
+        "time": "2018/11/23",
+        "province": "内蒙古",
+        "city": "包头",
+        "location": [109.84654, 40.663148],
+        "sick": 69,
+        "dead": "53",
+        "killed": 88
+    },
+    {
+        "number": 72,
+        "time": "2018/11/25",
+        "province": "湖北",
+        "city": "阳新",
+        "location": [115.213952, 29.836793],
+        "sick": 9,
+        "dead": "5",
+        "killed": 63
+    },
+    {
+        "number": 73,
+        "time": "2018/11/29",
+        "province": "天津",
+        "city": "宁河",
+        "location": [117.831246, 39.338072],
+        "sick": null,
+        "dead": "67",
+        "killed": 361
+    },
+    {
+        "number": 74,
+        "time": "2018/11/30",
+        "province": "江西",
+        "city": "九江",
+        "location": [115.92258, 29.615559],
+        "sick": 16,
+        "dead": "4",
+        "killed": 159
+    },
+    {
+        "number": 75,
+        "time": "2018/12/2",
+        "province": "陕西",
+        "city": "西安",
+        "location": [108.616023, 34.108564],
+        "sick": 205,
+        "dead": "79",
+        "killed": 245
+    },
+    {
+        "number": 76,
+        "time": "2018/12/2",
+        "province": "北京",
+        "city": "通州",
+        "location": [116.664563, 39.915798],
+        "sick": 85,
+        "dead": "17",
+        "killed": 9835
+    },
+    {
+        "number": 77,
+        "time": "2018/12/2",
+        "province": "黑龙江",
+        "city": "北安管理局",
+        "location": [126.517959, 48.255898],
+        "sick": null,
+        "dead": "77",
+        "killed": 375
+    },
+    {
+        "number": 78,
+        "time": "2018/12/5",
+        "province": "四川",
+        "city": "泸州",
+        "location": [105.836136, 28.817541],
+        "sick": 68,
+        "dead": "68",
+        "killed": 165
+    },
+    {
+        "number": 79,
+        "time": "2018/12/5",
+        "province": "陕西",
+        "city": "西安",
+        "location": [108.913578, 34.165919],
+        "sick": 85,
+        "dead": "64",
+        "killed": 245
+    },
+    {
+        "number": 80,
+        "time": "2018/12/5",
+        "province": "北京",
+        "city": "顺义",
+        "location": [116.659127, 40.137455],
+        "sick": 53,
+        "dead": "26",
+        "killed": 2461
+    },
+    {
+        "number": 81,
+        "time": "2018/12/6",
+        "province": "山西",
+        "city": "临汾",
+        "location": [111.587582, 36.08433],
+        "sick": 54,
+        "dead": "35",
+        "killed": 91
+    },
+    {
+        "number": 82,
+        "time": "2018/12/9",
+        "province": "陕西",
+        "city": "神木",
+        "location": [110.494507, 38.849669],
+        "sick": 19,
+        "dead": "19",
+        "killed": 33
+    },
+    {
+        "number": 83,
+        "time": "2018/12/9",
+        "province": "贵州",
+        "city": "贵阳",
+        "location": [106.629601, 26.681781],
+        "sick": 5,
+        "dead": "5",
+        "killed": 26
+    },
+    {
+        "number": 84,
+        "time": "2018/12/12",
+        "province": "四川",
+        "city": "巴中",
+        "location": [106.746766, 31.870689],
+        "sick": 51,
+        "dead": "19",
+        "killed": 117
+    },
+    {
+        "number": 85,
+        "time": "2018/12/12",
+        "province": "青海",
+        "city": "西宁",
+        "location": [101.682793, 36.938435],
+        "sick": 14,
+        "dead": "14",
+        "killed": 69
+    },
+    {
+        "number": 86,
+        "time": "2018/12/16",
+        "province": "四川",
+        "city": "绵阳",
+        "location": [105.393775, 31.216048],
+        "sick": 35,
+        "dead": "26",
+        "killed": 210
+    },
+    {
+        "number": 87,
+        "time": "2018/12/16",
+        "province": "黑龙江",
+        "city": "鸡西",
+        "location": [130.978432, 45.302706],
+        "sick": 24,
+        "dead": "24",
+        "killed": 84
+    },
+    {
+        "number": 88,
+        "time": "2018/12/18",
+        "province": "重庆",
+        "city": "璧山",
+        "location": [106.231175, 29.5991],
+        "sick": 8,
+        "dead": "3",
+        "killed": 23
+    },
+    {
+        "number": 89,
+        "time": "2018/12/19",
+        "province": "广东",
+        "city": "珠海",
+        "location": [113.409041, 22.254006],
+        "sick": 11,
+        "dead": "11",
+        "killed": 50
+    },
+    {
+        "number": 90,
+        "time": "2018/12/20",
+        "province": "福建",
+        "city": "三明",
+        "location": [118.200315, 26.174403],
+        "sick": 27,
+        "dead": "27",
+        "killed": 11950
+    },
+    {
+        "number": 91,
+        "time": "2018/12/21",
+        "province": "贵州",
+        "city": "黔南",
+        "location": [106.989462, 26.457269],
+        "sick": 42,
+        "dead": "42",
+        "killed": 156
+    },
+    {
+        "number": 92,
+        "time": "2018/12/22",
+        "province": "广东",
+        "city": "广州",
+        "location": [113.493391, 23.181379],
+        "sick": 30,
+        "dead": "9",
+        "killed": 6027
+    },
+    {
+        "number": 93,
+        "time": "2018/12/24",
+        "province": "福建",
+        "city": "南平",
+        "location": [118.189023, 26.645101],
+        "sick": 35,
+        "dead": "11",
+        "killed": 5776
+    },
+    {
+        "number": 94,
+        "time": "2018/12/25",
+        "province": "广东",
+        "city": "惠州",
+        "location": [114.2983, 23.177477],
+        "sick": 11,
+        "dead": "11",
+        "killed": 90
+    },
+    {
+        "number": 95,
+        "time": "2018/12/30",
+        "province": "山西",
+        "city": "晋城",
+        "location": [112.790378, 35.598597],
+        "sick": 24,
+        "dead": "7",
+        "killed": 8016
+    },
+    {
+        "number": 96,
+        "time": "2019/01/02",
+        "province": "黑龙江",
+        "city": "绥化",
+        "location": [126.9689, 46.6538],
+        "sick": 4686,
+        "dead": "3766",
+        "killed": 73000
+    },
+    {
+        "number": 97,
+        "time": "2019/01/20",
+        "province": "宁夏",
+        "city": "银川",
+        "location": [106.2309, 38.4872],
+        "sick": 26,
+        "dead": "13",
+        "killed": 57
+    },
+    {
+        "number": 98,
+        "time": "2019/02/08",
+        "province": "湖南",
+        "city": "永州",
+        "location": [111.6134, 26.4204],
+        "sick": 270,
+        "dead": "171",
+        "killed": 4600
+    },
+    {
+        "number": 99,
+        "time": "2019/02/21",
+        "province": "山东",
+        "city": "济南",
+        "location": [117.1201, 36.6512],
+        "sick": 17,
+        "dead": "3",
+        "killed": 4504
+    },
+    {
+        "number": 100,
+        "time": "2019/02/21",
+        "province": "广西",
+        "city": "北海",
+        "location": [109.1202, 21.4813],
+        "sick": 1629,
+        "dead": "924",
+        "killed": 23555
+    },
+    {
+        "number": 101,
+        "time": "2019/02/22",
+        "province": "云南",
+        "city": "泸水",
+        "location": [98.8580, 25.8229],
+        "sick": 6,
+        "dead": "200",
+        "killed": 300
+    },
+    {
+        "number": 102,
+        "time": "2019/02/24",
+        "province": "河北",
+        "city": "保定",
+        "location": [115.4646, 38.8744],
+        "sick": null,
+        "dead": "不详",
+        "killed": 5600
+    },
+    {
+        "number": 102,
+        "time": "2019/02/28",
+        "province": "陕西",
+        "city": "榆林",
+        "location": [109.7346, 38.2854],
+        "sick": 150,
+        "dead": "62",
+        "killed": 11334
+    }
+]
